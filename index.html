@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="이도한 - Business Automation / Python / RPA Developer Portfolio" />
+  <title>이도한 | Business Automation Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">DOHAN<span>.</span></a>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-button" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">BUSINESS AUTOMATION · PYTHON · RPA</p>
+          <h1>업무를 이해하고,<br><span>운영 가능한 시스템</span>으로 만듭니다.</h1>
+          <p class="hero-copy">RPA 기반 업무자동화 경험을 바탕으로 Python, API, 데이터베이스, AI까지 개발 영역을 확장해온 개발자입니다.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">프로젝트 보기</a>
+            <a class="button ghost" href="https://github.com/dohan0680" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <p class="card-label">CURRENT FOCUS</p>
+          <div class="focus-row"><strong>Automation</strong><span>업무 분석 · 설계 · 운영</span></div>
+          <div class="focus-row"><strong>Backend</strong><span>FastAPI · SQLAlchemy</span></div>
+          <div class="focus-row"><strong>Data</strong><span>PostgreSQL · Pandas</span></div>
+          <div class="focus-row"><strong>AI</strong><span>Prophet · OpenAI API</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section muted-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT</p>
+          <h2>반복 업무를 코드로 바꾸는 개발자</h2>
+          <p>유통, 재무, 노무, 공공기관 등 다양한 도메인에서 업무 분석부터 자동화 개발, 테스트, 운영·유지보수까지 전 과정을 경험했습니다.</p>
+        </div>
+        <div class="stat-grid">
+          <article class="stat-card"><strong>3년+</strong><span>업무자동화 실무 경험</span></article>
+          <article class="stat-card"><strong>End-to-End</strong><span>분석 → 설계 → 개발 → 운영</span></article>
+          <article class="stat-card"><strong>Multi-domain</strong><span>유통 · 재무 · 노무 · 공공</span></article>
+          <article class="stat-card"><strong>Expansion</strong><span>RPA → Backend → AI</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CAREER JOURNEY</p>
+          <h2>Automation → Data → Backend → AI</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item"><span>2023</span><div><h3>RPA 개발 시작</h3><p>웹·ERP·Excel 기반 반복 업무 자동화와 운영 대응 경험 축적</p></div></div>
+          <div class="timeline-item"><span>2024</span><div><h3>업무 규칙 중심 자동화</h3><p>노무·4대보험·재무 업무를 데이터 매칭과 예외처리 로직으로 구조화</p></div></div>
+          <div class="timeline-item"><span>2025</span><div><h3>Python 데이터 처리 확장</h3><p>발주·재고·상품 데이터를 중심으로 복잡한 수량 계산과 검증 로직 구현</p></div></div>
+          <div class="timeline-item"><span>2026</span><div><h3>Backend & AI</h3><p>FastAPI·PostgreSQL 기반 시스템과 Prophet·OpenAI API 연동 기능 개발</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section muted-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FEATURED PROJECTS</p>
+          <h2>기술보다 먼저, 문제를 구조화합니다.</h2>
+          <p>회사·고객사 내부정보는 익명화했으며 실제 운영 데이터와 소스코드는 공개하지 않습니다.</p>
+        </div>
+
+        <article class="project-card featured">
+          <div class="project-meta">
+            <span class="project-number">01</span>
+            <span class="pill">Backend</span><span class="pill">Data</span><span class="pill">AI</span>
+          </div>
+          <div class="project-grid">
+            <div>
+              <h3>AI 기반 발주 예측 시스템</h3>
+              <p class="project-summary">외부 판매 플랫폼과 자사 판매·재고 데이터를 통합하고, 시계열 예측과 재고 정보를 결합해 발주 판단을 지원하는 시스템을 구축했습니다.</p>
+              <ul class="clean-list">
+                <li>Python · FastAPI · SQLAlchemy · PostgreSQL</li>
+                <li>상품코드/품번 기준 채널 데이터 표준화</li>
+                <li>Prophet 기반 수요예측 및 발주수량 산정</li>
+                <li>OpenAI API 기반 결과 요약 및 질의응답</li>
+              </ul>
+            </div>
+            <div class="architecture">
+              <div>외부 플랫폼</div><b>↓</b><div>Python Processing</div><b>↓</b><div>PostgreSQL</div><b>↓</b>
+              <div class="arch-split"><span>Prophet</span><span>FastAPI</span></div><b>↓</b><div>발주수량 산정 · AI 요약</div>
+            </div>
+          </div>
+          <div class="project-note"><strong>Key Challenge</strong><span>누락 기간 탐지, 데이터 재처리, 채널별 상품코드 불일치 대응</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-number">02</span>
+            <span class="pill">RPA</span><span class="pill">JavaScript</span><span class="pill">Operations</span>
+          </div>
+          <div class="project-grid">
+            <div>
+              <h3>식품·바이오 기업 발주 자동화</h3>
+              <p class="project-summary">거래처마다 다른 발주 파일과 입력 기준을 자동화 프로세스로 표준화하고, 상품별 업무 규칙을 코드로 구현했습니다.</p>
+              <ul class="clean-list">
+                <li>발주파일 수집 → 상품 매칭 → 출고가능수량 비교</li>
+                <li>박스입수량 기준 수량 조정</li>
+                <li>예외상품·단종상품 등 조건별 분기</li>
+                <li>웹 입력 및 결과 검증·운영 대응</li>
+              </ul>
+            </div>
+            <div class="rule-box">
+              <h4>Business Rules</h4>
+              <p><span>Rule 01</span> 발주수량 &gt; 출고가능수량 → 수량 조정</p>
+              <p><span>Rule 02</span> 일반상품 → 박스입수 단위 적용</p>
+              <p><span>Rule 03</span> 예외상품 → 원 발주수량 유지</p>
+              <p><span>Rule 04</span> 단종상품 → 변경사유 분기</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-number">03</span>
+            <span class="pill">Python</span><span class="pill">Excel</span><span class="pill">Validation</span>
+          </div>
+          <div class="project-grid">
+            <div>
+              <h3>4대보험 경정청구 자동화</h3>
+              <p class="project-summary">급여·원천징수·건강보험·고용정보 데이터를 근로자 기준으로 통합하고, 대상자 및 금액 산정에 필요한 업무 규칙을 자동화했습니다.</p>
+              <ul class="clean-list">
+                <li>다중 원천 데이터 수집·정제·매칭</li>
+                <li>누락·중복·형식 오류 검증</li>
+                <li>대상자 선별 및 수당 항목 집계</li>
+                <li>검토용 Excel 결과 자동 생성</li>
+              </ul>
+            </div>
+            <div class="flow-box">
+              <span>급여대장</span><span>원천징수</span><span>건강보험</span><span>고용정보</span>
+              <b>↓</b>
+              <strong>Employee Matching</strong>
+              <b>↓</b>
+              <strong>Validation · Business Rules</strong>
+              <b>↓</b>
+              <strong>Excel Output</strong>
+            </div>
+          </div>
+        </article>
+
+        <div class="other-projects">
+          <article><h3>중앙행정기관 RPA 운영</h3><p>로그 점검, 장애 분석, 웹 화면 변경 대응, 수정 배포</p></article>
+          <article><h3>문화 분야 공공기관 RPA</h3><p>문서·파일 처리, 데이터 검증, 메일 발송, 운영 보고</p></article>
+          <article><h3>ERP 청구·정산 자동화</h3><p>세금계산서, ERP 데이터, Excel 비교 검증 및 결과 등록</p></article>
+          <article><h3>노무 업무 자동화</h3><p>4대보험 신청, 근로계약서·급여명세서 생성 및 발송</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SKILLS & WORKING STYLE</p>
+          <h2>기술은 목적이 아니라 문제 해결 수단입니다.</h2>
+        </div>
+        <div class="skills-grid">
+          <article><h3>Automation</h3><p>Brity RPA · Selenium · XPath · DOM</p></article>
+          <article><h3>Backend</h3><p>Python · FastAPI · SQLAlchemy · REST API</p></article>
+          <article><h3>Database</h3><p>PostgreSQL · SQL · MSSQL</p></article>
+          <article><h3>Data</h3><p>Pandas · openpyxl · Excel/CSV Processing</p></article>
+          <article><h3>AI</h3><p>Prophet · OpenAI API</p></article>
+          <article><h3>Web Logic</h3><p>JavaScript · DOM Control · Data Validation</p></article>
+        </div>
+        <div class="work-process">
+          <span>현업 인터뷰</span><b>→</b><span>업무 분석</span><b>→</b><span>자동화 범위 정의</span><b>→</b><span>설계</span><b>→</b><span>개발</span><b>→</b><span>테스트</span><b>→</b><span>운영·개선</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <p class="eyebrow">CONTACT</p>
+        <h2>업무를 이해하고, 시스템으로 구조화하고, 운영까지 책임집니다.</h2>
+        <p>Business Automation / Python / RPA Developer</p>
+        <a class="button primary" href="https://github.com/dohan0680" target="_blank" rel="noreferrer">GitHub Profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Dohan Lee. Built for portfolio use.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
